@@ -1,0 +1,28 @@
+{
+    "name": "cran208-laravel/mail-preview",
+    "description": "mail preview driver for laravel5.3",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "CRan",
+            "email": "cran208@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "5.3.*",
+        "php": ">5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "CRanLaravel\\MailPreview\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CRanLaravel\\MailPreview\\ServiceProvider"
+            ]
+        }
+    }
+}
